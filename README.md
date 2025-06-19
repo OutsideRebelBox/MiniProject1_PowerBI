@@ -52,8 +52,24 @@ Net Sales YTD =
 Net Sales QTD = 
     CALCULATE([Total Net Sales], DATESQTD('DateTable'[Date]))
 ```
+---
 
 ## 📁 File Structure
 - `PricingDashboard.pbix` – Power BI report file (open with Power BI Desktop)
 - `README.md` – This documentation
-- `data/`
+
+---
+
+## 💡 Technologies Used
+- Power BI Desktop
+- DAX (Data Analysis Expressions)
+- Excel (for initial data prep)
+- GitHub (for version control and portfolio hosting)
+
+---
+
+## 🧩 Future Improvements
+- Normalize currency across international orders
+- Add dynamic tooltips and bookmarks
+- Build a Power BI Service version for web interactivity
+
