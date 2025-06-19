@@ -47,4 +47,13 @@ Contribution Margin % =
     DIVIDE([Contribution Margin], [Total Net Sales], 0)
 
 Net Sales YTD = 
-    CALCULATE([Total Net Sales], DATESYTD('DateT
+    CALCULATE([Total Net Sales], DATESYTD('DateTable'[Date]))
+
+Net Sales QTD = 
+    CALCULATE([Total Net Sales], DATESQTD('DateTable'[Date]))
+```
+
+## 📁 File Structure
+- `PricingDashboard.pbix` – Power BI report file (open with Power BI Desktop)
+- `README.md` – This documentation
+- `data/`
